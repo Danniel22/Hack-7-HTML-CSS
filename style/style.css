@@ -1,0 +1,217 @@
+*{
+    font-family: 'Onest', sans-serif;
+}
+
+body{
+    background: #FFF8EE;
+}
+
+.div1{
+    height: 400px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 > section{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 55px 0 0;
+}
+
+.div1 section > span:nth-child(1){
+    font-size: 115px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 7px;
+}
+
+.div1 section > span:nth-child(2){
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.div1 > img{
+    width: 350px;
+    height: 450px;
+    margin-right: 45px;
+}
+
+.div1 > div:nth-child(1){
+    width: 190px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #FFD900;
+    position: absolute;
+    top: -90px;
+    left: 380px;
+}
+
+.div1 > div:nth-child(2){
+    width: 100px;
+    height: 200px;
+    border-radius: 150px 0 0 150px;
+    background-color: #FF5757;
+    position: absolute;
+    top: 160px;
+    right: -99px;
+    transform: translate(-99%, -1%);
+}
+
+.div1 > div:nth-child(3){
+    width: 210px;
+    height: 100px;
+    border-radius: 150px 150px 0 0;
+    background-color: #FFC1D3;
+    position: absolute;
+    top: 1430px;
+    left: 160px;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.div2 > section{
+    background: #FFC1D3;
+    border-radius: 50px;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div2 > section > div{
+    width: 810px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.div2 > section > div:nth-child(2){
+    width: 810px;
+    margin-left: 12px;
+}
+
+.div2 > section > div:nth-child(1) > span{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.div2 > section > div:nth-child(2) > span{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 120px;
+    text-align: center;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.div3 > section{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 800px;
+    position: relative;
+}
+
+.subtitle{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    line-height: 27px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.div3 > section:nth-child(2) > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3 > section:nth-child(2) > div > div:last-child{
+    text-align: right;
+}
+
+.div3 > section > img{
+    width: 440px;
+    height: 540px;
+    position: relative;
+    top: -90px;
+    left: -15px;
+}
+
+.div3 > section:nth-child(1) > div{
+    margin-top: -160px;
+}
+
+.div3 > section:nth-child(1) > div > span{
+    font-weight: 700;
+}
+
+li{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.lista{
+    position: absolute;
+    left: -20px;
+    top: 780px;
+    display: flex;
+}
+
+.bluebox{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 540px;
+    width: 420px;
+    height: 160px;
+    background: #85E0E4;
+    border-radius: 60px;
+}
+
+.bluebox div{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bluebox span{
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+    font-family: 'Onest', sans-serif;
+    text-align: left;
+    line-height: 10px;
+}
